@@ -46,6 +46,8 @@ const Auth = () => {
             cookies.set('fullName', fullName);
             cookies.set('hashedPassword', hashedPassword);
         }
+
+        window.location.reload();
     }
 
     const switchMode =() => {
